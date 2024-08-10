@@ -1,0 +1,10 @@
+File extension Legends:
+---> *.js
+Denotes a hybrid javascript module
+---> *.mjs | *.cjs
+Denotes either ESmodule if mjs,CommonJS if for Node
+----> *.srcjs | *.bjs
+Denotes that the script requires a proper `document` to use, and should be used like ```html
+<script src="./script.srcjs"></script>
+```
+if denoted as srcjs, use type="module" if bjs

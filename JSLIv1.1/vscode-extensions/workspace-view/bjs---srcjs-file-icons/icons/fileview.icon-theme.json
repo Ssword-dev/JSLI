@@ -1,0 +1,23 @@
+{
+  "iconDefinitions": {
+    "bjs": {
+      "iconPath": "./fileview/v5.png"
+    },
+    "srcjs": {
+      "iconPath": "./fileview/srcjsv2.png"
+    },
+    "folder": {
+      "iconPath": "./fileview/folder.png"
+    }
+  },
+  "showLanguageModeIcons": true,
+  "fileExtensions": {
+    "bjs": "bjs",
+    "srcjs": "srcjs",
+  },
+  "folder": "folder",
+  "hidesExplorerArrows": true,
+  "languageIds": {
+
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "./../tsconfig.json", // Assuming JSLI was at the root dir of the project,then load in the schema
+    "./../../tsconfig.json" // Assuming JSLI was installed at node and is at node modules dir,
+    // very unlikely to happen
+  ],
+  "typeAcquisition": {
+    "include": [
+      "./global.d.ts"
+    ],
+  },
+}

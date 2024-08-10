@@ -1,0 +1,24 @@
+{
+  "name": "bjs---srcjs-file-icons",
+  "displayName": "BJS & SRCJS file icons",
+  "description": "file icons for *.bjs.js , *.srcjs.js",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "bjs.iconTheme",
+        "label": "bjs.js/srcjs.js",
+        "path": "./icons/fileview.icon-theme.json"
+      }
+    ]
+  },
+
+  "publisher": "ssword-dev",
+  "license":"MIT"
+}

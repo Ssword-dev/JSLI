@@ -1,0 +1,48 @@
+/**
+* Square
+*/
+
+@property --square{
+    initial-value: 50vh ;
+    syntax: "<length>";
+    inherits: false;
+}
+@property --primary{
+    initial-value: #000 ;
+    syntax: "<color>";
+    inherits: true;
+}
+@property --secondary{
+    initial-value: #000 ;
+    syntax: "<color>";
+    inherits: true;
+}
+@property --MarginTL{
+    initial-value: 30px;
+    syntax: "<length>";
+    inherits: false;
+}
+@property --PaddingTL{
+    initial-value: 30px;
+    syntax: "<length>";
+    inherits: false;
+}
+*[square=true]{
+    width: var(--square);
+    height: var(--square);
+}
+*[color_sourcing="primary,secondary"]{
+    --primary_color: var(--primary);
+    --secondary_color: var(--secondary);
+    background: var(--secondary_color);
+    color: var(--primary_color);
+}
+.MarginTL{
+    margin-top: var(--MarginTL);
+    margin-left: var(--MarginTL);
+}
+.PaddingTL{
+    padding-top: var(--PaddingTL);
+    padding-left: var(--PaddingTL);
+}
+
