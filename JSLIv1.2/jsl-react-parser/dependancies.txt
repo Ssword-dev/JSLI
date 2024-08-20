@@ -1,3 +1,0 @@
-@babel/core
-@babel/traverse
-@babel/parse
