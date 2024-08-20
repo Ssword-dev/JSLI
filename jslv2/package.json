@@ -1,0 +1,14 @@
+{
+  "author": {
+    "email": "ssword.dev@gmail.com",
+    "name": "Ssword"
+  },
+  "bugs": {
+    "email": "ssword.dev@gmail.com",
+    "url": "https://github.com/Ssword-dev/JSLI/issues"
+  },
+  "version": "1.1.0",
+  "license":"MIT",
+  "contributors": ["Ssword"],
+  "description": "Basic JS lib/package for such things as DOM manipulation and others"
+}

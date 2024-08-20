@@ -1,0 +1,66 @@
+{
+  "folders":[
+    {
+      "path": "./browser",
+      "name": "BrowserApi"
+    },
+    {
+      "path": "./debug",
+      "name": "DebugApi"
+    },
+    {
+      "path": "./Dom",
+      "name": "DOMApi"
+    },
+    {
+      "path": "./headers",
+      "name": "JSLheaders"
+    },
+    {
+      "path": "./operator",
+      "name": "JSLSemiOperators"
+    },
+    {
+      "path": ".",
+      "name": "Globals",
+
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint", // ESLint extension for linting JavaScript and TypeScript
+      "ms-vscode.vscode-typescript-next" // JavaScript and TypeScript Nightly extension
+    ]
+  },
+  "settings": {
+    "files.autoSave":"onWindowChange",
+    "javascript.suggest.paths":true,
+
+    "[javascript]": {
+      "editor.maxTokenizationLineLength": 2500,
+      "editor.cursorStyle": "block-outline",
+      "editor.parameterHints.enabled": true,
+
+    },
+    "files.associations": {
+      "*.embeddedhtml": "html",
+      //region [srcjs,bjs explaination]
+      // Since there is no standard file extension for scripts that need a proper `document`,
+      // srcjs and bjs are made for denoting browser-only scripts,
+      // bjs denotes the script is used with type="module", and srcjs used with src only,
+      // note that these are non standard, and may change in the future
+      //endregion [srcjs,bjs explaination]
+      "*.srcjs.js":"javascript",
+      "*.bjs.js":"javascript",
+      ".editorconfig":"EditorConfig",
+      "*.dcss":"css", // definition css file,this is where properties and attribute's styles are defined
+      "*.domworker.js":"javascript", // A js file meant to shape nodes based on attributes,contents,etc
+      // (might be better to use a dtd for this)
+      "*.domworker.ts":"typescript",
+      // optionals,
+      "*.tsl.ts":"typescript",
+      "*.jsl.js":"javascript"
+    },
+    
+    }
+  }
